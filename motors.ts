@@ -31,7 +31,6 @@ namespace kitronik_motor_driver {
 	 * @param dir   which direction to go
 	 * @param speed how fast to spin the motor
      */
-    //% blockId=kitronik_motordriver_motor_on
     //% block= turn "%motor|on direction %dir|speed %speed"
     //% speed.min=0 speed.max=100
     export function motorOn(motor: Motors, dir: MotorDirection, speed: number): void {
@@ -71,7 +70,6 @@ namespace kitronik_motor_driver {
      * Turns off the motor specified by eMotors
      * @param motor :which motor to turn off
      */
-    //% blockId=kitronik_motordriver_motor_off
     //%block="turn off %motor"
     export function motorOff(motor: Motors): void {
         switch (motor) {
