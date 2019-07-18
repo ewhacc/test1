@@ -2,7 +2,7 @@
  * Blocks for driving the Kitronik Motor Driver Board
  */
 //% weight=100 color=#00A654 icon="\uf21c" block="MotorDriver"
-namespace kitronik_motor_driver {
+namespace cckmotor {
 	/************************************************************************************************************************************************
 	* micro:bit motor driver blocks 
 	************************************************************************************************************************************************/
